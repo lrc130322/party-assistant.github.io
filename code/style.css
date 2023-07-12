@@ -1,0 +1,247 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("/pic/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.header {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4ba95;
+}
+
+.main {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5c6a6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+bottom: 0%;
+left:37%;
+}
+
+.footer img {
+    
+    height: 10%;
+    width: 40%;
+    justify-content: center;
+        align-items: center;
+
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+        position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f4ba95;
+    width: 60%;
+    height: 48%;
+    top: 30%;
+        border-radius: 20px;
+    
+
+
+}
+
+.title-title {
+        position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    top: 5%;
+    background-color: #f4ba95;
+    width: 60%;
+    height: 20%;
+        border-radius: 20px;
+
+
+}
+
+
+.image1 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25%;
+}
+
+.image2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 65%;
+}
+
+.image3 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 65%;
+}
+
+#punishment {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+.hidden {
+    display: none;
+}
+
+.punishment-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+background-color:#9805d4 ;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    width: 30%;
+
+
+
+}
+
+.punishment-image {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.selected {
+    border: 4px solid #FF0000;
+}
+
+.punishment-text {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+      justify-content: center;
+  align-items: center;
+}
+.punishment-img{
+    display: flex;
+        justify-content: center;
+            align-items: center;
+}
+.punishment-img img{
+width: 50%;
+
+}
+/* button {
+    font-size: 20px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: flexbox;
+    justify-content: center;
+        align-items: center;
+} */
+
+#detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+
+#detail .title {
+    margin-top: 100px;
+}
+
+#detail .image1 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#detail .image3 {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+#game-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.bd {
+    border: 5px solid #ce3721;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #f5c6a6;
+    width: 70%;
+    height: 60%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

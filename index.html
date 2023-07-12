@@ -3,29 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <title>抽奖游戏</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./code/style.css" />
   </head>
   <body>
     <div id="index">
       <div class="center">
         <div class="title bd">请抽取游戏</div>
       </div>
-      <img src="image1.png" class="image1" />
-      <img src="image2.png" class="image2" onclick="showPunishmentPage()" />
-      <img src="image3.png" class="image3" onclick="goToDetailPage()" />
+      <img src="./pic/image1.png" class="image1" />
+      <img
+        src="./pic/image2.png"
+        class="image2"
+        onclick="showPunishmentPage()"
+      />
+      <img src="./pic/image3.png" class="image3" onclick="goToDetailPage()" />
     </div>
 
     <div id="punishment" class="hidden">
       <div class="punishment-content">
         <div class="punishment-img">
           <img
-            src="truth.png"
+            src="./pic/truth.png"
             class="punishment-image"
             id="truth-image"
             onclick="selectTruth()"
           />
           <img
-            src="dare.png"
+            src="./pic/dare.png"
             class="punishment-image selected"
             id="punishment-image"
             onclick="selectPunishment()"
@@ -41,16 +45,16 @@
       <div class="center">
         <div class="title">详情页</div>
       </div>
-      <img src="image1.png" class="image1" />
+      <img src="./pic/image1.png" class="image1" />
       <img
-        src="image3.png"
+        src="./pic/image3.png"
         class="image3"
         id="game"
         onclick="goToIndexPage()"
       />
     </div>
 
-    <script src="script.js"></script>
+    <script src="./code/script.js"></script>
 
     <div id="game-text" class="hidden"></div>
   </body>
